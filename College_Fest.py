@@ -4,10 +4,6 @@ from tkinter import ttk
 from tkinter import messagebox
 import os.path
 
-import boto3
-from boto3.s3.transfer import S3Transfer
-client=boto3.client('s3',aws_access_key_id='AKIAI36R2ZXCGW4NOOMQ',aws_secret_access_key='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')
-transfer=S3Transfer(client)
 
 import os
 from openpyxl import Workbook
